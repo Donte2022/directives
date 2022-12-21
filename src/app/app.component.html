@@ -28,7 +28,11 @@
         </div>
       </ul>
       <p appBasicHighlight> Style me with basic directive</p>
-      <p appBetterHighlight> Style me with a better Highlight directive</p>
+      <!-- <p appBetterHighlight> Style me with a better Highlight directive</p> -->
+      <!-- <p appBetterHighlight [defaultColor]="'orange'" [highlightColor]="'skyblue'"> Style me with a better Highlight directive</p> -->
+      <!-- <p [appBetterHighlight]="'red'" [defaultColor]="'orange'"> Style me with a better Highlight directive</p> -->
+      <p [appBetterHighlight]="'red'" defaultColor="orange"> Style me with a better Highlight directive</p>
+
     </div>
   </div>
 </div>
